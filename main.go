@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/everdrone/genpasswd/cmd"
-	"github.com/everdrone/genpasswd/internal"
+	"github.com/everdrone/genpasswd3/cmd"
+	"github.com/everdrone/genpasswd3/internal"
 )
 
 func main() {
