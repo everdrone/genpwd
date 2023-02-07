@@ -5,7 +5,7 @@ Generate strong passwords
 # Installation
 
 ```
-go install github.com/everdrone/genpasswd3
+go install github.com/everdrone/genpasswd
 ```
 
 # usage
