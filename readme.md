@@ -1,15 +1,15 @@
-## genpasswd
+## genpwd
 
 Generate strong passwords
 
 # Installation
 
 ```
-go install github.com/everdrone/genpasswd
+go install github.com/everdrone/genpwd@latest
 ```
 
 # usage
 
 ```
-genpasswd
+genpwd
 ```

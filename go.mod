@@ -1,4 +1,4 @@
-module github.com/everdrone/genpasswd
+module github.com/everdrone/genpwd
 
 go 1.20
 

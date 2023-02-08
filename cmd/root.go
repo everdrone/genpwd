@@ -3,14 +3,14 @@ package cmd
 import (
 	"os"
 
-	"github.com/everdrone/genpasswd/internal"
+	"github.com/everdrone/genpwd/internal"
 	"github.com/spf13/cobra"
 )
 
 var RootCmd = &cobra.Command{
 	SilenceErrors: true,
 	SilenceUsage:  true,
-	Use:           "genpasswd",
+	Use:           "genpwd",
 	Short:         "Generate secure passwords",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		iterations, _ := cmd.Flags().GetInt("num")
