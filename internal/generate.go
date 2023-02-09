@@ -48,8 +48,6 @@ func Generate(opt *GeneratorOptions) (res string, err error) {
 		return "", err
 	}
 
-	fmt.Println(numberIndices, capitalIndices)
-
 	for _, numberIndex := range numberIndices {
 		// generate a random number between 0 and 9
 		number, err := GenerateRandomNumberChar()
